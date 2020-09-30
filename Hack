@@ -1,0 +1,65 @@
+@@ -0,0 +1,277 @@
+#!/system/xbin/bash
+# Bersihkan Layar
+clear
+blue='\033[34;1m'
+green='\033[32;1m'
+purple='\033[35;1m'
+cyan='\033[36;1m'
+red='\033[31;1m'
+white='\033[37;1m'
+yellow='\033[33;1m'
+###################################################
+# Channel Aldi Suprianata tutorial
+###################################################
+trap ctrl_c INT
+ctrl_c() {
+clear
+echo  $red"[#]> (Ctrl + C ) Detected, 
+Trying To Exit ... "
+sleep 1
+echo ""
+echo  $yellow"[#]> Thank You For Using My 
+Tools ... "
+sleep 1
+echo ""
+echo  $white"[#]> Mr.Aldi
+Here ... "
+read enter
+exit
+}
+=================================================
+echo $white"Author : Mem Aldi Suprianata tutorial"
+echo $white"Team : Muara"
+=================================================
+echo  $yellow" 01) Red Hawk"
+echo  $yellow" 02) D-Tect"
+echo  $yellow" 03) Top Up Ilegal ML"
+echo  $yellow" 04) Top Up Ilegal FF"
+echo  $yellow" 05) Webdav"
+echo  $yellow" 06) Metasploit"
+echo  $yellow" 07) Pulsa Gratis"
+echo  $yellow" 08) Ubuntu"
+echo  $yellow" 09) Youtube Dl"
+echo  $yellow" 10) viSQL "
+echo  $yellow" 11) multi-brute-webdav "
+echo  $yellow" 12) Bajinganv6 "
+echo  $yellow" 13) Tools RCT"
+echo  $yellow" 14)  cc fresh Amazon Dan Untung Carding"
+echo  $red" 15) Exit "
+echo  $white""
+read -p "[Anak Rumahan Gans]> " bro;
+
+if [ $bro = 1 ] || [ $bro = 01 ]
+then
+clear
+echo  $red" Installing Red Hawk "
+sleep 1
+apt update && apt upgrade
+apt install php
+apt install git
+git clone 
+https://github.com/Aldisuprianata/Tutorial
+echo  $red" T E R I N S T A L L "
+exit
+fi
